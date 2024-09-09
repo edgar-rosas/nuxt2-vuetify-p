@@ -56,6 +56,9 @@ export default {
         body: this.body,
         userId: 1,
       })
+      this.title = ''
+      this.body = ''
+      this.loading = false
       this.dialog = false
     },
     ...mapActions('posts', ['createPost']),
