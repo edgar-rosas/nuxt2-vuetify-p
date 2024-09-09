@@ -4,6 +4,7 @@
       <v-btn icon color="green" @click="fetchPosts">
         <v-icon>mdi-cached</v-icon>
       </v-btn>
+      <CreatePostDialog />
       <v-simple-table dark>
         <thead>
           <tr>
